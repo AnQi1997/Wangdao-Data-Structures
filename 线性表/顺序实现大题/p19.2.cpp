@@ -31,6 +31,8 @@ void Reserve(List& list, int start, int end, int size) {
 	_rep(i, 0, mid - start) {
 		swap(list.data[start + i], list.data[end - i]);
 	}
+	//test
+	printf("Hello World");
 }
 
 void PrintList(List list) {
